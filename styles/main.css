@@ -173,3 +173,92 @@ html, body {
     
 
 }
+
+/* adwantages */
+
+.adwantages_header {
+    color: #333fe8;
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
+
+.background_style {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.programm {
+    background-image: url('../images/Rectangle-4.png');
+    height: 70%;
+}
+
+.time_text {
+    padding-right: 0;
+}
+
+.bron {
+    background-image: url('../images/Rectangle-9.png');
+    text-align: center;
+    /* height: 30%; */
+}
+
+.height_25{
+    /* height: 25%; */
+}
+
+.height_33{
+    /* height: 33%; */
+}
+
+
+.newPath {
+    background-image: url('../images/Rectangle-6.png');
+    color: black;
+}
+
+.newPartners {
+    background-image: url('../images/Rectangle-61.png');
+    
+}
+
+.finance_independent {
+    background-image: url('../images/Rectangle-7.png');
+    color: black;
+}
+
+.effectiveness_evaluation {
+    background-color: #e6e6e6;
+    color: black;
+    
+}
+
+.marketing_support {
+    background-color: #333fe8;
+}
+
+.financial_support {
+    background-image: url('../images/Rectangle-8.png');
+}
+
+.paragraph_text {
+    line-height: 1.2;
+}
+
+.bron_text {
+    /* font-size: 1.3rem; */
+}
+
+.bron_button {
+    background-color: #333fe8;
+    border:
+}
+
+
+.adwantages_row {
+    /* height: 1300px; */
+}
+
+.adwantages_column {
+    height: 100%;
+}
+
