@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family:"GothamPro";
+    /* src:local("../fonts/GothamPro.ttf"); */
+    src:url("../fonts/GothamPro.ttf");
+}
+
+@font-face {
+    font-family:"GothamPro-Bold";
+    /* src:local("../fonts/GothamPro.ttf"); */
+    src:url("../fonts/GothamPro-Bold.ttf");
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "GothamPro";    
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.padding_hor {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding_hor_big{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.padding_small {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+.padding_big {
+    /* padding: 70px 0; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding_middle {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.padding_huge{
+    /* padding: 70px 0; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+.margin_bottom_small {
+    margin-bottom: 30px;
+}
+
+.margin_bottom_big {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 455px) {
+    .padding_huge{
+        /* padding: 70px 0; */
+        padding-top: 120px;
+        padding-bottom: 70px;
+    }
+
+    .speakerInfo {
+        margin-bottom: 120px;
+    }
+
+    .padding_small {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    
+}
