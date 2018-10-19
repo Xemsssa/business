@@ -84,3 +84,92 @@ html, body {
     
     
 }
+
+/* header */
+.header {
+    background-image: url("../images/D-_pr_business_images_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerHeader_text {
+    font-size: 4.0rem;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 30px 0; */
+}
+
+.headerNav {
+    display: flex;
+}
+
+.header_text {
+    color: #fff;
+}
+
+.text_transform {
+    text-transform: uppercase;
+}
+
+.font_bold {
+    font-weight: 600;
+}
+
+
+.background_color {
+    background-color: #e8334d;
+}
+
+
+.header_info {
+    background-color: transparent ;
+}
+
+.header_button {
+    border: none;
+    padding: 25px 70px;
+    padding: 20px 70px;
+}
+
+.header_bottom {
+    text-align: right;
+}
+
+.nav>li>a {
+    /* padding-right: 0; */
+    margin: 0;
+}
+
+
+
+@media(min-width: 455px) {
+        
+    .headerInfo_text {
+        width: 950%;
+    }
+
+    .header_info {
+        padding: 40px 20px;
+        width: 80px;
+    }
+    
+    .headerInfo_text {
+        /* width: 700%; */
+        position: relative;
+    }
+
+    .header_info {
+        background-color: #e8334d;
+    }
+    
+
+}
