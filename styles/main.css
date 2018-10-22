@@ -201,15 +201,15 @@ html, body {
     text-align: center;
     /* height: 30%; */
 }
-
+/* 
 .height_25{
-    /* height: 25%; */
-}
-
+    height: 25%;
+} */
+/* 
 .height_33{
-    /* height: 33%; */
+    height: 33%;
 }
-
+ */
 
 .newPath {
     background-image: url('../images/Rectangle-6.png');
@@ -244,19 +244,18 @@ html, body {
     line-height: 1.2;
 }
 
-.bron_text {
-    /* font-size: 1.3rem; */
-}
+/* .bron_text {
+    font-size: 1.3rem;
+} */
 
 .bron_button {
     background-color: #333fe8;
-    border:
 }
 
-
+/* 
 .adwantages_row {
-    /* height: 1300px; */
-}
+    height: 1300px;
+} */
 
 .adwantages_column {
     height: 100%;
@@ -303,10 +302,10 @@ html, body {
 .dima {
     background-image: none;
 }
-
+/* 
 .speakerIntroduction {
-    /* width: 33%; */
-}
+    width: 33%;
+} */
 
 .speakerInfo {
     margin-bottom: 30px;
@@ -379,12 +378,12 @@ html, body {
 .infoBlock_header {
     font-size: 2.0rem;
 }
-
+/* 
 .footerBlock {
-    /* display: flex; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
 
 .info_button {
     text-align: center;
@@ -416,9 +415,9 @@ html, body {
 }
 
 @media(min-width: 1200px) {
-    .form-group {
-        /* width: 75%; */
-    }
+    /* .form-group {
+        width: 75%;
+    } */
 
     .infoBlock {
         padding: 55px;
