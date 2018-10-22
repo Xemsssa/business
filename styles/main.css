@@ -159,7 +159,7 @@ html, body {
 
     .header_info {
         padding: 40px 20px;
-        width: 80px;
+        width: 95px;
     }
     
     .headerInfo_text {
@@ -262,3 +262,165 @@ html, body {
     height: 100%;
 }
 
+
+
+/* footer */
+
+.contactsBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* form */
+.form_input {
+    border: 2px solid #333fe8;
+    border-radius: 0px;
+    padding: 25px;
+}
+
+.form_button{
+    border-radius: 0px;
+    border: none;
+    padding: 20px;
+    width: 100%;
+}
+
+.form_input::placeholder {
+    color: #333fe8;
+    text-transform: uppercase;
+}
+
+
+
+/* speaker */
+.speaker {
+    background-image: url("../images/Layer-6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 940px; */
+}
+
+.dima {
+    background-image: none;
+}
+
+.speakerIntroduction {
+    /* width: 33%; */
+}
+
+.speakerInfo {
+    margin-bottom: 30px;
+}
+
+.speakerInfo_small {
+    color: #8b8c95;
+}
+
+.speakerInfo_about {
+    color: #cccdd1;
+}
+
+.arrow {
+    font-size: 11rem;
+    color: #e8334d;
+    position: relative;
+    top:-12px;
+}
+
+.speaker_text {
+    /* padding-top: 200px; */
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 455px) {
+    .speaker_text {
+        padding-top: 150px;
+    }
+
+        
+    .dima {
+        background-image: url("../images/dima.png");
+        background-position: center -35px;
+        background-size: contain;
+        background-size: 60%;
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        /* height: 740px; */
+    }
+
+    .speakerInfo {
+        margin-bottom: 120px;
+    }
+
+}
+
+
+/* info */
+/* .info {
+    background-image: url('../images/Rectangle-11.png');
+} */
+
+.footer {
+    background-image: url('../images/Rectangle-11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background-color: #fff;
+    /* padding: 70px; */
+}
+
+.infoBlock {
+    padding: 0px;
+}
+
+.infoBlock_header {
+    font-size: 2.0rem;
+}
+
+.footerBlock {
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.info_button {
+    text-align: center;
+}
+
+.contactsBlock_link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contactsBlock_link {
+    color: #fff;
+}
+
+.form-group {
+    width: 100%;
+}
+
+@media(min-width: 455px) {
+    .infoBlock {
+        padding: 55px;
+    }
+
+    
+    .form {
+        background-color: #fff;
+        padding: 70px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .form-group {
+        /* width: 75%; */
+    }
+
+    .infoBlock {
+        padding: 55px;
+    }
+}
